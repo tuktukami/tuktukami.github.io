@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/achievement.png" type="image/gif" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li>
+          <a class="homeBtn" href="#home" onclick="toggleMenu();">Home</a>
+        </li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+        <!--		<li><a href="#">Kursy</a></li>-->
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+      </ul>
+    </header>
+    <section class="banner cursorOn" id="home">
+      <div class="textBx">
+        <h2>Hello, I'm<br /><span>Tuk Tuk Ami</span></h2>
+        <h3>I'm a chica bonita</h3>
+        <a href="#about" class="btn">About Me!</a>
+      </div>
+      <div id="clock">
+        <h2>current time</h2>
+        <div id="time">
+          <div><span id="hour">00</span><span>Hours</span></div>
+          <div><span id="minutes">00</span><span>Minutes</span></div>
+          <div><span id="seconds">00</span><span>Seconds</span></div>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/watch?v=LOZuxwVk7TU" target="_blank"
+            ><i class="fab fa-github"> </i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=f0sVDGFoIOI" target="_blank"
+            ><i class="fab fa-linkedin-in"> </i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=PLolag3YSYU" target="_blank"
+            ><i class="fab fa-facebook"> </i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=6Mgqbai3fKo" target="_blank"
+            ><i class="fas fa-file-pdf"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="contentBx">
+          <p>
+            <span>My name is Tuk Tuk Ami</span>, and I'am very chica bonita,
+            mamasita. todos los papasitos geniales quisieran estar conmigo
+
+            <br /><br />
+            uno: Tu culo dos: Te la meto y me da tos. tres: La tengo en los
+            pies. cuatro: Pa tu culo mi aparato cinco: Te la inco. seis: Te la
+            meto hasta los pies. siete: Te la meto con el panete. ocho: Te la
+            mocho. nueve: El culito se te mueve. diez: La tengo hasta los pies
+            <br /><br />
+            Todos los días deseo que tus dulces labios me besen y tus brazos me
+            abracen con ternura. Todas las noches quiero que tu olor irrite mis
+            sentidos y tus manos me acaricien, pero lo más que quiero es estar
+            contigo para siempre y amarte hasta el final de mis días!! <3
+          </p>
+        </div>
+
+        <div class="w50">
+          <img src="assets/img1.webp" alt="img" />
+        </div>
+      </div>
+    </section>
+    <section class="projects cursorOn" id="projects">
+      <div class="heading white">
+        <h2>Projects</h2>
+        <p></p>
+      </div>
+      <div class="content">
+        <a
+          class="projectLink"
+          href="https://coolkings-00420.web.app/"
+          target="_blank"
+        >
+          <div class="projectBx">
+            <img src="assets/king.png" alt="" />
+            <h2>CoolKings</h2>
+            <p>
+              Website where you can find food recipes based on products you have
+              in your fridge. <br />Project build with React/Redux.
+            </p>
+          </div>
+        </a>
+        <a class="projectLink" href="https://slstudio.pl/" target="_blank">
+          <div class="projectBx">
+            <img src="assets/wordpress-.svg" alt="" />
+            <h2>ssstudio Auto Detailing</h2>
+            <p>Website for my customer <br />Build with Wordpress</p>
+          </div>
+        </a>
+        <a
+          class="projectLink"
+          href="https://hulu-clone-69420.web.app/"
+          target="_blank"
+        >
+          <div class="projectBx">
+            <img src="assets/video.svg" alt="" />
+            <h2>Hulu-Clone</h2>
+            <p>
+              Clone of American movie website Hulu.com <br />
+              Project build with React technologies.
+            </p>
+          </div>
+        </a>
+        <a
+          class="projectLink"
+          href="https://bobionepl.github.io/ToDoApp/"
+          target="_blank"
+        >
+          <div class="projectBx">
+            <img src="assets/todo.svg" alt="" />
+            <h2>To Do APP</h2>
+            <p>
+              Plan, Organize and Manage Everything on To-Do List. <br />
+              Build with Vanilla JS
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="heading">
+        <h2>Technology</h2>
+        <p>Technologies what I use to work on my projects</p>
+      </div>
+      <div class="content">
+        <div class="servicesBx">
+          <img class="icon" src="assets/html-5.webp" alt="" />
+        </div>
+        <div class="servicesBx">
+          <img class="icon" src="assets/css.webp" alt="" />
+        </div>
+        <div class="servicesBx">
+          <img class="icon" src="assets/javascript.webp" alt="" />
+        </div>
+        <div class="servicesBx">
+          <img
+            class="icon"
+            src="assets/pt-library-angularjs-web-application.webp"
+            alt=""
+          />
+        </div>
+        <div class="servicesBx">
+          <img
+            class="icon"
+            id="egg"
+            src="assets/favpng_github-social-media-logo-android.webp"
+            alt=""
+          />
+        </div>
+        <div class="servicesBx">
+          <img class="icon" src="assets/wordpress.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact cursorOn" id="contact">
+      <div class="heading white">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-geo-alt-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  />
+                </svg>
+              </div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Tu i tam<br />Różnie,<br />69-420</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-telephone-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"
+                  />
+                </svg>
+              </div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>997 albo 112</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-envelope-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
+                  />
+                </svg>
+              </div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>DM me for email albo nie jak chcesz</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--		<div class="formBx">-->
+        <!--			<form action="" method="post">-->
+        <!--				<h3>Message Me</h3>-->
+        <!--				<input type="text" name="name" placeholder="Full Name">-->
+        <!--				<input type="email" name="email" placeholder="Email">-->
+        <!--				<textarea name="text" placeholder="Your Message" id="" cols="30" rows="10"></textarea>-->
+        <!--				<input type="submit" value="Send" name="submit">-->
+        <!--			</form>-->
+        <!--		</div>-->
+      </div>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/watch?v=LOZuxwVk7TU" target="_blank"
+            ><i class="fab fa-github"> </i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=f0sVDGFoIOI" target="_blank"
+            ><i class="fab fa-linkedin-in"> </i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=PLolag3YSYU" target="_blank"
+            ><i class="fab fa-facebook"> </i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=6Mgqbai3fKo" target="_blank"
+            ><i class="fas fa-file-pdf"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
+    <div class="copyright">
+      <p id="date"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
