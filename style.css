@@ -521,7 +521,7 @@ section.contact {
     .toggle {
         width: 40px;
         height: 40px;
-        background: url(assets/menu.png);
+        background: url(menu.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px;
@@ -529,7 +529,7 @@ section.contact {
     }
 
     .toggle.active {
-        background: url("assets/close.png");
+        background: url("close.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px;
